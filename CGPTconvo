@@ -1,0 +1,3 @@
+Me: can you write me a python class that generates and stores the ranked preferences of voters for N arbitrary candidates based on their proximity in a 2 dimensional ideological spectrum?
+
+ChatGPT: Sure, here's an example Python class that generates and stores the ranked preferences of voters for N arbitrary candidates based on their proximity in a 2-dimensional ideological spectrum:
