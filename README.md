@@ -280,14 +280,10 @@ cg: In this example, we generate the votes using the generate_votes method, and 
 mw: I would like to figure out a way to code for the voters changing their rankings, based on the result of the polling. What would be some reasons for the voters to change their rankings strategically?
 
 cg: Voters might change their rankings strategically for a few reasons, such as:
-
-Tactical Voting: Voters might strategically vote for their second or third choice candidate instead of their first choice candidate in order to prevent another candidate they dislike from winning.
-
-Preference Change: Voters might change their rankings based on new information they receive about the candidates, or they might simply change their minds over time.
-
-Candidate Dropout: If a voter's preferred candidate drops out of the race, they may need to change their rankings to reflect their new preferences.
-
-Coalition Building: Voters might change their rankings in order to help a candidate they support form a coalition with other candidates in order to win.
+*Tactical Voting: Voters might strategically vote for their second or third choice candidate instead of their first choice candidate in order to prevent another candidate they dislike from winning.
+*Preference Change: Voters might change their rankings based on new information they receive about the candidates, or they might simply change their minds over time.
+*Candidate Dropout: If a voter's preferred candidate drops out of the race, they may need to change their rankings to reflect their new preferences.
+*Coalition Building: Voters might change their rankings in order to help a candidate they support form a coalition with other candidates in order to win.
 
 To account for these reasons, you could add methods to your existing class that allow voters to update their rankings based on new information or candidate dropout, and also allow for polling of voter preferences to simulate strategic voting.
 
